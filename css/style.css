@@ -1,0 +1,83 @@
+body {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    max-width: 30%;
+    text-align: center;
+}
+
+.card {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:  rgba(231, 231, 234, 0.563);
+    border: .15rem rgb(180, 163, 206) solid;
+}
+
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.card-header {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-end-end-radius: 10px;
+    border-bottom: .15rem rgb(180, 163, 206) solid;
+}
+
+.card-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgba(0, 121, 214, 0.301) inset;
+}
+
+.temperature, .card-title {
+    font-size: 30px;
+}
+
+ul li {
+    font-size: 17px;
+    list-style: none;
+}
+
+.feelslike {
+    font-size: 16px;
+    color: rgba(45, 48, 60, 0.831)
+}
+
+.form-select {
+ font-size: 18px;
+}
+
+.features {
+    margin-left: 30px;
+    margin-right: 30px;
+   border: .3rem rgb(180, 163, 206) solid;
+   border-radius: 50px;
+   background-color: rgba(71, 69, 69, 0.321);
+   -webkit-box-shadow: 0px 0px 33px 5px rgba(102, 148, 184, 0.301) inset;
+   box-shadow: 0px 0px 33px 5px rgba(47, 137, 206, 0.29) inset;
+}
+
+@media (min-width: 575.98px) {
+    .container {
+        max-width: 70%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 767.98px) {
+    .container {
+        max-width: 60%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1199.98px) {
+    .container {
+    max-width: 35%;
+    text-align: center;
+}
+}
